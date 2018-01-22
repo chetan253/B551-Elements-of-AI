@@ -98,7 +98,6 @@ class Search:
 	def dfs(self, start, end):
 		fringe = [start]
 		visited = {}
-		print 'chetan'
 		while(len(fringe) > 0):
 			for i in self.successors(fringe.pop()):
 				print i
